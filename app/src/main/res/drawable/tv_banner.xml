@@ -1,10 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:drawable="@drawable/ic_launcher_background" />
-    <item
-        android:left="88dp"
-        android:right="88dp"
-        android:top="18dp"
-        android:bottom="18dp"
-        android:drawable="@drawable/ic_launcher_foreground" />
-</layer-list>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="320dp"
+    android:height="180dp"
+    android:viewportWidth="320"
+    android:viewportHeight="180">
+
+    <path
+        android:fillColor="#101B3A"
+        android:pathData="M0,0h320v180h-320z" />
+
+    <path
+        android:fillColor="#172B56"
+        android:pathData="M0,0h112l-82,180h-30z" />
+
+    <path
+        android:fillColor="#243D70"
+        android:pathData="M320,0v180h-76l64,-180z" />
+
+    <path
+        android:fillColor="#35C6D4"
+        android:pathData="M35,36h4v108h-4z" />
+
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M116,51c0,-4.4 4.8,-7.1 8.6,-4.8l58,34.9c3.7,2.2 3.7,7.6 0,9.8l-58,34.9c-3.8,2.3 -8.6,-0.4 -8.6,-4.8z" />
+
+    <path
+        android:fillColor="#35C6D4"
+        android:pathData="M213,56h72v5h-72zM213,69h52v3h-52zM213,78h62v3h-62z" />
+
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M213,101h67v4h-67zM213,111h54v3h-54z" />
+</vector>
